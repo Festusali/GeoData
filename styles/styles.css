@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #152035;
+    color: white;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: rgb(172, 154, 154);
+}
+
+nav.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.legal-notice ul li {
+    list-style: none;
+}
+
+.padding-bottom-xlarge, footer {
+    padding-bottom: 32px;
+}
+
+.copyright {
+    text-align: center;
+    font-style: oblique;
+}
+
+section.records div {
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+}
+
+span.divider {
+    width: 60%;
+    height: auto;
+    border-bottom: 4px solid white;
+    border-radius: 0.09em;
+}
+
+.divider-full {
+    border-bottom: 4px solid white;
+}
+
+a {
+    color: teal;
+}
+
+a:visited {
+    color: mediumslateblue;
+}
+
+a:active, a:hover {
+    color: darkgoldenrod;
+}
+
+#topSearchBar {
+    background-color: whitesmoke;
+}
+
+#topSearchBar:hover {
+    background-color: white;
+}
+
+#topSearchBar,
+#topSubmitButton {
+    outline: none;
+    border-bottom: mediumslateblue solid 2px;
+}
+
+.data-record {
+    background-color: #153550;
+    min-width: 250px;
+    min-height: 250px;
+    margin-bottom: 30px !important;
+}
+
+.record-icon {
+    width: 200px;
+    height: 200px;
+    color: mediumslateblue;
+    border: 5px solid mediumslateblue;
+    border-radius: 50%;
+}
+
+.record-icon:hover {
+    width: 210px;
+    height: 210px;
+    color: #8170e4;
+    border: 5px solid #8170e4;
+}
+
+div.record-icon i {
+    font-size: 120px;
+}
+
+div.record-icon i:hover {
+    font-size: 135px;
+}
+
+#logo {
+    max-width: 130px;
+    max-height: 130px;
+}
+
+/*
+.ruler {
+    width: 7px;
+}
+*/
